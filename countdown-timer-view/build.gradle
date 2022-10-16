@@ -58,7 +58,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.KunikaV alecha'
+                groupId = 'com.github.KunikaValecha'
                 artifactId = 'countdown-timer-view'
                 version = '1.0'
             }
