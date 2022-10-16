@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimerView</string>
+    <string name="timer_view_hour">Hour</string>
+    <string name="timer_view_minute">minute</string>
+</resources>

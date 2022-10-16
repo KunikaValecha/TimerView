@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTimerView">
+        <attr name="timer_backgroundColor" format="color" />
+        <attr name="timer_cellHeight" format="dimension" />
+        <attr name="timer_cellWidth" format="dimension" />
+        <attr name="timer_textViewSize" format="dimension" />
+        <attr name="timer_textViewColor" format="color" />
+        <attr name="timer_shouldShowHeaders" format="boolean" />
+    </declare-styleable>
+</resources>

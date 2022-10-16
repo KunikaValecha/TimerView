@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:background="#2E2942">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_black_bg_4dp"
+        android:backgroundTint="#4d7745ff"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@id/tvHr2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/round_black_bg_4dp"
+        android:backgroundTint="#4d7745ff"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@id/tvHr1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHourTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/timer_view_hour"
+        android:textColor="#EEEAFF"
+        android:textSize="8sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/tvHr2"
+        app:layout_constraintStart_toStartOf="@id/tvHr1"
+        app:layout_constraintTop_toBottomOf="@id/tvHr1"
+        tools:ignore="SmallSp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSeparatorHr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:gravity="center"
+        android:text=":"
+        app:layout_constraintBottom_toBottomOf="@id/tvHr2"
+        app:layout_constraintEnd_toStartOf="@id/tvMin1"
+        app:layout_constraintStart_toEndOf="@id/tvHr2"
+        app:layout_constraintTop_toTopOf="@id/tvHr2"
+        tools:ignore="SmallSp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_black_bg_4dp"
+        android:backgroundTint="#4d7745ff"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@id/tvMin2"
+        app:layout_constraintStart_toEndOf="@id/tvSeparatorHr"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/round_black_bg_4dp"
+        android:backgroundTint="#4d7745ff"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@id/tvMin1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMinTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/timer_view_minute"
+        android:textColor="#EEEAFF"
+        android:textSize="8sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/tvMin2"
+        app:layout_constraintStart_toStartOf="@id/tvMin1"
+        app:layout_constraintTop_toBottomOf="@id/tvMin2"
+        tools:ignore="SmallSp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSeparatorMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:gravity="center"
+        android:text=":"
+        app:layout_constraintBottom_toBottomOf="@id/tvMin2"
+        app:layout_constraintEnd_toStartOf="@id/tvSec1"
+        app:layout_constraintStart_toEndOf="@id/tvMin2"
+        app:layout_constraintTop_toTopOf="@id/tvMin2"
+        tools:ignore="SmallSp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_black_bg_4dp"
+        android:backgroundTint="#4d7745ff"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@id/tvSec2"
+        app:layout_constraintStart_toEndOf="@id/tvSeparatorMin"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/round_black_bg_4dp"
+        android:backgroundTint="#4d7745ff"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvSec1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSecTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/timer_view_second"
+        android:textColor="#EEEAFF"
+        android:textSize="8sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/tvSec2"
+        app:layout_constraintStart_toStartOf="@id/tvSec1"
+        app:layout_constraintTop_toBottomOf="@id/tvSec2"
+        tools:ignore="SmallSp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
