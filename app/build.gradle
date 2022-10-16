@@ -63,5 +63,5 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
 
-    implementation project(':countdown-timer-view')
+    implementation 'com.github.KunikaValecha:TimerView:1.1'
 }
