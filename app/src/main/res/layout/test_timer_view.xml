@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="@color/white">
 
     <com.example.countdown_timer_view.TimerView
         android:id="@+id/timerView"
@@ -10,14 +11,37 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:timer_backgroundColor="@color/black"
-        app:timer_cellHeight="16dp"
-        app:timer_cellWidth="11dp"
-        app:timer_textViewColor = "#B2FF59"
+        app:timer_backgroundColor="@color/green_33009F6B"
+        app:timer_backgroundOutlineColor="@color/green_99009F6B"
+        app:timer_backgroundOutlineRadius="10dp"
+        app:timer_backgroundOutlineWidth="4dp"
+        app:timer_cellHeight="60dp"
+        app:timer_cellWidth="40dp"
         app:timer_shouldShowHeaders="false"
-        app:timer_textViewSize="10sp"/>
+        app:timer_textViewColor="#354741"
+        app:timer_textViewSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivPause"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_pause_circle_24"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@id/timerView"
+        app:layout_constraintTop_toBottomOf="@+id/timerView" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_play_circle_24"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/timerView"
+        app:layout_constraintTop_toBottomOf="@+id/timerView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

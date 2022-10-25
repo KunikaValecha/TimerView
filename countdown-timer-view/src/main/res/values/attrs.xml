@@ -7,5 +7,8 @@
         <attr name="timer_textViewSize" format="dimension" />
         <attr name="timer_textViewColor" format="color" />
         <attr name="timer_shouldShowHeaders" format="boolean" />
+        <attr name="timer_backgroundOutlineColor" format="color"/>
+        <attr name="timer_backgroundOutlineWidth" format="dimension"/>
+        <attr name="timer_backgroundOutlineRadius" format="dimension"/>
     </declare-styleable>
 </resources>

@@ -3,4 +3,5 @@
     <string name="timer_view_hour">Hour</string>
     <string name="timer_view_minute">minute</string>
     <string name="timer_view_second">second</string>
+    <string name="timer_view_colon">:</string>
 </resources>
