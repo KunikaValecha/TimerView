@@ -60,7 +60,7 @@ afterEvaluate {
 
                 groupId = 'com.github.KunikaValecha'
                 artifactId = 'countdown-timer-view'
-                version = '1.5'
+                version = '2.1'
             }
         }
     }
