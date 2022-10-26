@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/KunikaValecha/TimerView/blob/master/assets/timer-view.jpg" width="273"/>
+<img src="https://github.com/KunikaValecha/TimerView/blob/master/assets/timer-view.jpeg" width="273"/>
 <img src="https://github.com/KunikaValecha/TimerView/blob/master/assets/timer-view.gif" width="280"/>
 </p>
 
