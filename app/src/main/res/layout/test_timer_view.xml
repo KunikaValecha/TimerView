@@ -20,7 +20,7 @@
         app:timer_backgroundOutlineWidth="4dp"
         app:timer_cellHeight="60dp"
         app:timer_cellWidth="40dp"
-        app:timer_shouldShowHeaders="false"
+        app:timer_shouldShowHeaders="true"
         app:timer_textViewColor="#354741"
         app:timer_textViewSize="20sp" />
 

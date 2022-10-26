@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.res.TypedArray
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
+import android.graphics.fonts.Font
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.LayoutInflater
@@ -131,14 +132,19 @@ class TimerView : ConstraintLayout {
         //Hours Text Size
         binding.tvHr1.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
         binding.tvHr2.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
+        binding.tvHourTitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
+        binding.tvSeparatorHr.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
 
         //Minutes Text Size
         binding.tvMin1.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
         binding.tvMin2.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
+        binding.tvMinTitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
+        binding.tvSeparatorMin.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
 
         //Seconds Text Size
         binding.tvSec1.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
         binding.tvSec2.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
+        binding.tvSecTitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, cellTextSize)
     }
 
     /**
@@ -152,15 +158,18 @@ class TimerView : ConstraintLayout {
         binding.tvHr1.setTextColor(cellTextColor)
         binding.tvHr2.setTextColor(cellTextColor)
         binding.tvSeparatorHr.setTextColor(cellTextColor)
+        binding.tvHourTitle.setTextColor(cellTextColor)
 
         //Minutes Text Color
         binding.tvMin1.setTextColor(cellTextColor)
         binding.tvMin2.setTextColor(cellTextColor)
         binding.tvSeparatorMin.setTextColor(cellTextColor)
+        binding.tvMinTitle.setTextColor(cellTextColor)
 
         //Seconds Text Color
         binding.tvSec1.setTextColor(cellTextColor)
         binding.tvSec2.setTextColor(cellTextColor)
+        binding.tvSecTitle.setTextColor(cellTextColor)
     }
 
     /**
