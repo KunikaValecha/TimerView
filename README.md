@@ -1,6 +1,6 @@
 <h1 align="center">TimerView</h1></br>
 <p align="center">
-:fire: A beautifully designed fully customisable Android view that allows developers to create the highly customisable UI for countdown timers. <br>
+:fire: A beautifully designed fully customisable Android view that allows developers to create the UI for countdown timers. <br>
 </p>
 <p align="start">
   <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
