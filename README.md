@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/KunikaValecha/CreditCardView/blob/master/assets/credit-card-view.jpg" width="273"/>
-<img src="https://github.com/KunikaValecha/CreditCardView/blob/master/assets/credit-card-view.gif" width="280"/>
+<img src="https://github.com/KunikaValecha/TimerView/blob/master/assets/timer-view.jpg" width="273"/>
+<img src="https://github.com/KunikaValecha/TimerView/blob/master/assets/timer-view.gif" width="280"/>
 </p>
 
 #### Index
